@@ -1,7 +1,11 @@
+import Sidebar from "./components/Sidebar"
+
 const App = () => {
   return (
-    <div className="text-red-500 text-2xl">
-      App
+    <div className="h-screen bg-black">
+      <div className="h-90% flex">
+        <Sidebar />
+      </div>
     </div>
   )
 }
