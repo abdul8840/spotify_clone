@@ -20,6 +20,6 @@ const albumSchema = new mongoose.Schema({
     
 }, { timestamps: true })
 
-const albumModel = mongoose.models.song || mongoose.model("album", albumSchema);
+const albumModel = mongoose.models.album || mongoose.model("album", albumSchema);
 
 export default albumModel;
